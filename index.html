@@ -7,7 +7,29 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>It's Easy!</h1>
+    <center>
+      <h1>Pokemon Search</h1>
+      <input type="text" id="pokemonName" placeholder="Enter Name pokemon" />
+      <button onclick="fetchDataBro()">Search</button> <br />
+    </center>
+    <img src="./img/pokemon.png" alt="pokemon sprite" id="pokemonImg" />
+    <div class="detail" style="display: none">
+      <table border="0" cellspacing="20" cellpadding="10">
+        <tr>
+          <th>Name</th>
+          <th>Element</th>
+          <th>Weight</th>
+          <th>Ability</th>
+        </tr>
+        <tr>
+          <td id="nama"></td>
+          <td id="element"></td>
+          <td id="berat"></td>
+          <td id="kemampuan"></td>
+        </tr>
+      </table>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
