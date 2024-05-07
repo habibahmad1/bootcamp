@@ -6,13 +6,14 @@
 
 .detail {
   display: flex;
+  justify-content: center;
 }
 
 table tr th {
   background-color: #30ef6d;
   border-radius: 4px;
   font-weight: bold;
-  color: #ff2727;
+  color: #fff;
 }
 
 table td {
@@ -40,6 +41,7 @@ button {
   background-color: #30c6ef;
   color: white;
   font-size: 15px;
+  cursor: pointer;
 }
 
 h1 {
